@@ -23,7 +23,7 @@
  *
  */
 
-package com.districtcommuter.metaparser
+package me.danlowe.metaparser
 
 import java.io.IOException
 

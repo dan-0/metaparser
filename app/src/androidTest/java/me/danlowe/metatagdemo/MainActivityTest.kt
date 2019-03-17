@@ -23,7 +23,7 @@
  *
  */
 
-package com.districtcommuter.metatagdemo
+package me.danlowe.metatagdemo
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.IdlingRegistry

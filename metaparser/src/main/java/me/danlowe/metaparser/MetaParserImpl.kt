@@ -23,7 +23,7 @@
  *
  */
 
-package com.districtcommuter.metaparser
+package me.danlowe.metaparser
 
 import org.jsoup.Jsoup
 import java.net.URL

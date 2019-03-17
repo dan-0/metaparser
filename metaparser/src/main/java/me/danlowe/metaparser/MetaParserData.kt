@@ -23,20 +23,21 @@
  *
  */
 
-package com.districtcommuter.metaparser;
-
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+package me.danlowe.metaparser
 
 /**
- * Example local unit test, which will execute on the development machine (host).
+ * Data object representing data parsed from a website.
  *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ * @param url Website's URL
+ * @param imageUrl URL for the meta tag image
+ * @param title Title derived from head data
+ * @param type Open Graph type
+ * @param description Description found in meta data
  */
-public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
-    }
-}
+data class MetaParserData(
+    val url: String? = "",
+    val imageUrl: String? = "",
+    val title: String? = "",
+    val type: String? = "",
+    val description: String? = ""
+)
