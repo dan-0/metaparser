@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MetaTagdemo</string>
+    <string name="title">Title:</string>
+    <string name="type">Type:</string>
+    <string name="image_url">Image Url:</string>
+    <string name="url">URL:</string>
+    <string name="description">Description:</string>
+</resources>
